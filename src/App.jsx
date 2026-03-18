@@ -1,4 +1,4 @@
-import Hero from './Hero'
+
 import Zero from './Zero'
 
 function App() {
