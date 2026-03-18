@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useRef,useState } from "react";
 
-export default function Zero() {
+export default function Hero() {
   const ref = useRef(null);
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
 
@@ -18,7 +18,7 @@ export default function Zero() {
     offset: ["start start", "end start"],
   });
 
-  // Smooth spring physics (premium feel)
+
   const smoothScroll = useSpring(scrollYProgress, {
     stiffness: 80,
     damping: 20,
@@ -36,7 +36,7 @@ export default function Zero() {
   const opacity = useTransform(smoothScroll, [0, 0.8], [1, 0]);
   const blur = useTransform(smoothScroll, [0, 1], [0, 8]);
 
-  const text = "WELCOME ITZ FIZZ".split("");
+  const text = "WELCOME ITZFIZZ".split("");
 
   return (
     <>
