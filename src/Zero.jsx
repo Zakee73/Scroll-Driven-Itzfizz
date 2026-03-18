@@ -40,7 +40,7 @@ export default function Zero() {
 
   return (
     <>
-    <section ref={ref} className="h-[250vh] bg-black text-white overflow-hidden">
+    <section ref={ref} className="h-[200vh] bg-black text-white overflow-hidden">
       <div className="sticky top-0 h-screen flex flex-col items-center justify-center px-4">
 
         {/* Background Layer */}
